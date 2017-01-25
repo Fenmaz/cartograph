@@ -11,7 +11,7 @@ sample_borders: True
 compress_png: false
 
 [Metrics]
-active: gender quality
+active: 
 gender: {
          "type": "trivariate-count",
          "path": "%(externalDir)s/gender.tsv",
