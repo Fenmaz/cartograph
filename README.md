@@ -90,10 +90,10 @@ article_embedding = %(externalDir)s/tsne_cache.tsv
 ###Directory setup and config
 This is the only part of this file you should need to change - the rest will either be generated based on your data or is constant.
 
-First up, the directories.
-1. In data/labdata, create a new folder and call it something relevant to your dataset. Ours is called dev_en (development english)
-2. Put all your data files from Data Format into this folder
-3. Change the "dataset" line in the config file to point to your folder rather than dev_en
+First up, the directories.  
+1. In data/labdata, create a new folder and call it something relevant to your dataset. Ours is called dev_en (development english)  
+2. Put all your data files from Data Format into this folder  
+3. Change the "dataset" line in the config file to point to your folder rather than dev_en  
 4. One more conf file to create - create a file called conf.txt and put it in the base directory (cartograph). It doesn't need to do anything, but it won't work if it's blank, so just add an arbitary heading like so: 
 ```
 [Heading]
@@ -107,9 +107,9 @@ Do the same for the other four files. If you don't have the last two, it's okay 
 
 
 #Dependencies galore!
-You'll have to install a bunch of dependencies in order to get started. Most of them are pretty quick, with the exception of pygsp, which takes about half an hour - start it installing and go get a snack or catch some Pokemon or something. 
+You'll have to install a bunch of dependencies in order to get started. Most of them are pretty quick, with the exception of pygsp, which takes about half an hour - start the installation and go get a snack or catch some Pokemon or something. 
 
-You have to install Qt outside of Python, possibly via [Homebrew] (http://brew.sh/) by
+You have to install Qt outside of Python, and the most convenient way is with [Homebrew] (http://brew.sh/) by
 
 ```
 brew install Qt
@@ -135,7 +135,7 @@ pip2.7 install werkzeug
 pip2.7 install marisa-trie
 pip2.7 install TileStache 
 pip2.7 install colour
-pip2.7 install falcon
+pip2.7 install falcon=1.0.0
 pip2.7 install cairocffi
 pip2.7 install jinja2
 ```
