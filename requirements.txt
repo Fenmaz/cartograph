@@ -23,7 +23,6 @@ psycopg2==2.6.2
 pycparser==2.17
 PyGSP==0.4.0
 PyOpenGL==3.1.0
-pyparsing==2.1.10
 pyqtgraph==0.10.0
 PySide==1.2.4
 python-daemon==2.1.1
@@ -35,7 +34,6 @@ scipy==0.18.1
 Shapely==1.5.17
 simplejson==3.8.2
 singledispatch==3.4.0.3
-six==1.10.0
 sklearn==0.0
 TileStache==1.51.1
 tornado==4.4.2
